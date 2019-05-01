@@ -1,0 +1,65 @@
+ .skills-container {
+      height: inherit;
+      text-align: center;
+      margin: auto;
+  }
+  .centered
+  {
+    position: absolute;
+     top:55%;
+     left:50%;
+    transform: translate(-50%, -50%);
+  }
+      .tile {
+          display: inline-block;
+          width: 150px;
+          height: 150px;
+          margin: 8px; 
+          border-radius: 10px;
+          color: #4c4c4c;
+          font-weight: bold;
+      }
+          .center {
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              text-align: center;
+              position: relative;
+              color:rgb(243, 231, 231);
+          }
+          .tile:nth-child(5n+4) {  
+            background-color: rgba(210, 206, 45, 0.91);
+            border: 2px rgba(210, 206, 45, 0.91);
+          }
+          .tile:nth-child(5n+2) {  
+            background-color: rgba(212, 97, 101, 0.95);
+            border: 2px rgba(212, 97, 101, 0.95);
+          }
+          .tile:nth-child(5n+3) {  
+            background-color: rgba(255, 165, 0, 0.68);
+            border: 2px rgba(255, 165, 0, 0.68);
+          }
+          .tile:nth-child(5n+5) {  
+            background-color: #26d298;
+            border: 2px #26d298;
+          }
+          .tile:nth-child(5n+1) {  
+            background-color: rgba(0, 188, 212, 0.5);
+            border: 2px rgba(0, 188, 212, 0.5);
+          }
+          .tile:hover {
+            -ms-transform: scale(1.1, 1.1); /* IE 9 */
+            -webkit-transform: scale(1.1, 1.1); /* Safari */
+            transform: scale(1.1, 1.1);
+            transition: transform 0.5s;
+          }
+
+
+
+          @media screen and (min-width: 400px) and (max-width: 1880px) {
+
+            h2.major {
+              width: 100%;
+            }
+      
+          }
